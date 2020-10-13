@@ -7,7 +7,7 @@ import './Header.css';
 const Header = () => {
     return (
         
-            <Container>
+            <Container style={{backgroundColor:'#FBD062'}}>
             <Navbar></Navbar>
             <HeaderMain></HeaderMain>
             </Container>

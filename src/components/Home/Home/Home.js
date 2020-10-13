@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../Header/Header';
+import OurPartner from '../OurPartner/OurPartner';
 
 
 const Home = () => {
     return (
-        <div style={{backgroundColor:'#FBD062'}}>
+        <div>
             <Header></Header>
+            <OurPartner></OurPartner>
         </div>
     );
 };
