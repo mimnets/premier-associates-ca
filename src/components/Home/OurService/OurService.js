@@ -23,6 +23,7 @@ const serviceList = [
 const OurService = () => {
 
     return (
+        <section className="my-5 py-5">
         <div className="container service-container">
             <div className="mt-5">
                 <h1 style={{textAlign: 'center'}}>Provide awesome <span style={{ color:'green'}}>services</span></h1>
@@ -33,6 +34,7 @@ const OurService = () => {
                 }
             </div>
         </div>
+        </section>
     );
 };
 
