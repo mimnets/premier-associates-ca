@@ -20,7 +20,7 @@ const Login = () => {
     const history = useHistory();
     const location = useLocation();
     
-let { from } = location.state || { from: {pathname: "/"} };
+let { from } = location.state || { from: {pathname: "/customer/order"} };
 
 const googleSignIn = () =>{
     handleGoogleSignIn()

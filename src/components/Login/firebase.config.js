@@ -10,3 +10,5 @@
     appId: "1:451426136294:web:789cc75335ac356fbe8b27"
   };
   // Initialize Firebase
+
+  export default firebaseConfig;

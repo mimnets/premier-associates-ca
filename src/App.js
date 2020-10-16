@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
+import Customer from './components/Customer/Customer';
 import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login';
 
@@ -19,6 +20,9 @@ function App() {
       <Switch>
       <Route path="/login">
       <Login/>
+      </Route>
+      <Route path="/customer">
+      <Customer></Customer>
       </Route>
       <Route exact path="/">
       <Home></Home>
