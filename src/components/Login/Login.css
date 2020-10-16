@@ -1,0 +1,13 @@
+.login{
+    height:570px;
+    width:470px;
+    border: 2px;
+    border-radius: 10px;
+}
+.btn-login{
+    height:30px;
+    width: 400px;
+    padding:0px;
+    border: 1px solid gray;
+    border-radius:50px;
+}

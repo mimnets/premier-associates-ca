@@ -1,7 +1,6 @@
 import React from 'react';
 import ClientsFeedback from '../ClientsFeedback/ClientsFeedback';
 import Footer from '../Footer/Footer';
-import FooterCredits from '../Footer/FooterCredits';
 import Header from '../Header/Header';
 import OurService from '../OurService/OurService';
 import OurWorks from '../OurWorks/OurWorks';

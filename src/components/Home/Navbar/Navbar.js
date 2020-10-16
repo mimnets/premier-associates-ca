@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../images/logos/logo.png';
 import './Navbar.css'
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link mx-3" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link mx-3" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link mx-3" href="#">About</a>
@@ -26,7 +27,7 @@ const Navbar = () => {
                 <a class="nav-link mx-3" href="#">Contact</a>
             </li>
             </ul>
-            <button className="btn btn-nbar my-2 my-sm-0 " type="submit"><span style={{color:'white'}}>Login</span></button>
+            <button className="btn btn-nbar my-2 my-sm-0 " type="submit"><span style={{color:'white'}}><Link to="/login">Login</Link></span></button>
         </div>
         </nav>
         </div>
