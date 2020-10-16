@@ -12,26 +12,24 @@ const Clients = ({clientFeed}) => {
     const classes = useStyles();
     return (
         
-                <div className="row d-flex">
-                    <div className="col">
-                <Card className={classes.root}>
-                <CardHeader
-                    avatar={
-                    <Avatar aria-label={clientFeed.img} className={classes.avatar}>
-                        <img src={clientFeed.img} alt=""/>
-                    </Avatar>
-                    }
-                    
-                    title={clientFeed.name}
-                    subheader={clientFeed.title}
-                />
-                <CardContent>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    {clientFeed.description}
-                    </Typography>
-                </CardContent>
-                </Card>
-                </div>
+                <div className="col-md-4 d-flex">
+                        <Card className={classes.root}>
+                    <CardHeader
+                        avatar={
+                        <Avatar aria-label={clientFeed.img} className={classes.avatar}>
+                            <img src={clientFeed.img} alt=""/>
+                        </Avatar>
+                        }
+                        
+                        title={clientFeed.name}
+                        subheader={clientFeed.title}
+                    />
+                    <CardContent>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                        {clientFeed.description}
+                        </Typography>
+                    </CardContent>
+                    </Card>
                 </div>
     );
 };

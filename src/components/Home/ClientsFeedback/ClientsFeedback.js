@@ -25,13 +25,17 @@ const clientsFeedback = [
 
 const ClientsFeedback = () => {
     return (
-       <section className="my-5 py-5 container row d-flex">
-           <div className="row d-flex">
-           <h1>Clients <span style={{ color:'green'}}>Feedback</span></h1>
+       <section className="my-5 py-5">
+           <div className="container">
+           <div className="mt-5">
+           <h1 style={{textAlign: 'center'}}>Clients <span style={{ color:'green'}}>Feedback</span></h1>
            </div>
+           <div className="row mt-5">
            {
                clientsFeedback.map(cl => <Clients clientFeed={cl}></Clients>)
            }
+           </div>
+           </div>
        </section>
     );
 };
