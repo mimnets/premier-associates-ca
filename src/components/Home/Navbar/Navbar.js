@@ -3,6 +3,8 @@ import logo from '../../../images/logos/logo.png';
 import './Navbar.css'
 const Navbar = () => {
     return (
+        <section className="container">
+            <div>
         <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a class="navbar-brand" href="#"><img src={logo} alt="" style={{height:'30px'}}/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,24 +25,12 @@ const Navbar = () => {
             <li class="nav-item">
                 <a class="nav-link mx-3" href="#">Contact</a>
             </li>
-            {/* <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li> */}
-            {/* <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> */}
             </ul>
             <button className="btn btn-nbar my-2 my-sm-0 " type="submit"><span style={{color:'white'}}>Login</span></button>
         </div>
         </nav>
+        </div>
+        </section>
     );
 };
 
