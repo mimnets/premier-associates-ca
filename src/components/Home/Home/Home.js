@@ -17,7 +17,6 @@ const Home = () => {
             <OurWorks></OurWorks>
             <ClientsFeedback></ClientsFeedback>
             <Footer></Footer>
-            <FooterCredits></FooterCredits>
         </div>
     );
 };

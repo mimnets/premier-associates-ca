@@ -2,8 +2,8 @@ import React from 'react';
 
 const FooterCredits = () => {
     return (
-        <section className="container my-5 ty-5">
-            <span>All rights reserved</span>
+        <section className="text-center">
+            <span >copyright Orange labs 2020</span>
         </section>
     );
 };
