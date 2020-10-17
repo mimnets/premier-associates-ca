@@ -17,7 +17,7 @@ const HeaderMain = () => {
                 <span>Premier Associates is proud to be your business growth partner by providing you international sewing machine and industrial machineries.</span>
                 <br/>
                 <br/>
-                <button className="btn btn-headermain"><span style={{color:'white'}}>Contact us</span></button>
+                <button className="btn btn-headermain"><span style={{color:'white'}}><a href="#contact">Contact us</a></span></button>
             </div>
             <div className="col-md-7">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
