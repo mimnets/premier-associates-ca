@@ -4,3 +4,8 @@
     width: 150px;
     padding:0px  /* this align text center */
 }
+.carousel {
+    width:600px;
+    height:300px;
+    margin: auto;
+  }

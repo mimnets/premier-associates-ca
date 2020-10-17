@@ -4,18 +4,18 @@ import './OurService.css'
 
 const serviceList = [
     {
-        title: 'Web & Mobile design',
-        description: 'We craft stunning and amazing web UI, using a well drrafted UX to fit your product.',
+        title: 'Industrial Sewing Machine',
+        description: 'We can provide support all kinds of industrial sewing machine.',
         img: "https://1.bp.blogspot.com/-m266oOBBGq8/X4dPqOtNhdI/AAAAAAAAoV0/9KK8iqSD2H896qNcV9Txi6J_0UH2WUkpgCLcBGAsYHQ/s0/service1.png"
     },
     {
-        title: 'Graphic design',
-        description: 'Amazing flyers, social media posts and brand representations that would make your brand stand out.',
+        title: 'Industrial Furniture',
+        description: 'Our industrial world class furniture service is best fit for your industry.',
         img: "https://1.bp.blogspot.com/-0jnFDfyjJSM/X4dPqOms6yI/AAAAAAAAoVs/_NegFoAHI7ohTKVFrHAP4-4Vl-umpNdMwCLcBGAsYHQ/s0/service2.png"
     },
     {
-        title: 'Web development',
-        description: 'With well written codes, we build amazing apps for all platforms, mobile and web apps in general.',
+        title: 'Garment Machinery',
+        description: 'We provide complete garment machinery solutions.',
         img: "https://1.bp.blogspot.com/-ocmYM-I8OjA/X4dPqETy4pI/AAAAAAAAoVw/SLxq0JcwyfEFxQ9rTnGy09rb7yEsr6dgACLcBGAsYHQ/s0/service3.png"
     }
 ]

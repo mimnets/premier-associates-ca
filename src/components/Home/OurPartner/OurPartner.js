@@ -4,13 +4,10 @@ import './OurPartner.css'
 
 const OurPartner = ({brand}) => {
     return (
-        <div className="col-md-2 mt-4"> 
-        <div className="d-flex justify-content-center info-container">
-        <div>
-                <img src={brand.img} alt=""/>
-            </div>
+        <div className="col-md-2 d-flex text-center"> 
+        <div className="info-container">
+                <a href={brand.link} target="_blank"><img src={brand.img} alt=""/></a>
         </div>
-            
         </div>
     );
 };

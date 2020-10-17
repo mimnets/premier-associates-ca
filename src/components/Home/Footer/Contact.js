@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css'
+import nodemailer from 'nodemailer';
 
 const Contact = () => {
     return (

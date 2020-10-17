@@ -7,7 +7,7 @@ const Navbar = () => {
         <section className="container">
             <div>
         <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-        <a class="navbar-brand" href="#"><img src={logo} alt="" style={{height:'30px'}}/></a>
+        <a class="navbar-brand" href="/"><img src={logo} alt="" style={{height:'30px'}}/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a class="nav-link mx-3" href="#">Contact</a>
             </li>
             </ul>
-            <button className="btn btn-nbar my-2 my-sm-0 " type="submit"><span style={{color:'white'}}><Link to="/login">Login</Link></span></button>
+            {/* <button className="btn btn-nbar my-2 my-sm-0 " type="submit"><span style={{color:'white'}}><Link to="/login">Login</Link></span></button> */}
         </div>
         </nav>
         </div>
