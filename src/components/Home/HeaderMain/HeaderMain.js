@@ -5,8 +5,8 @@ import './HeaderMain.css'
 
 const HeaderMain = () => {
     return (
-        <main className='row d-flex justify-content-center my-5 ty-5'>
-            <div className="col-md-4">
+        <main className='row d-flex text-center my-5 ty-5'>
+            <div className="col-md-5">
                 <h2>
                 Let’s Grow Your 
                 <br/>
@@ -19,45 +19,28 @@ const HeaderMain = () => {
                 <br/>
                 <button className="btn btn-headermain"><span style={{color:'white'}}>Contact us</span></button>
             </div>
-            <div className="col-md-6">
-                {/* <img src={frame} alt="" className="img-fluid" /> */}
-                <Carousel className="carousel">
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://1.bp.blogspot.com/-HQAkin1xXpc/X4iMq9LPC0I/AAAAAAAAoYQ/d5Nv3j2yiyQVSRxGtw1cYQhkwUln3mEUQCLcBGAsYHQ/s1110/carousel-5.png"
-              alt="First slide"
-            />
-            {/* <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://1.bp.blogspot.com/-Jh3qWrR8l1c/X4iMpUkdozI/AAAAAAAAoYE/OEYc8xVsTk89buP9xXA1QpbkZxM0AC9jQCLcBGAsYHQ/s1397/carousel-1.png"
-              alt="Third slide"
-            />
-
-            {/* <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://1.bp.blogspot.com/--QYZ1PqYgJY/X4iMpWFHuAI/AAAAAAAAoYI/Wu4nk-DiWc0_w8fPQcRKO70TvpCJDSXwQCLcBGAsYHQ/s1405/carousel-2.png"
-              alt="Third slide"
-            />
-
-            {/* <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-        </Carousel>
+            <div className="col-md-7">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img className="img-responsive center-block"  height={350} src="https://1.bp.blogspot.com/-Ce-fVdzgk8Q/X4h86i5oLDI/AAAAAAAAoXw/zLHA7m3IUVw6PnWAf9yIab4JuBV-O9MbwCLcBGAsYHQ/s904/yamato-slide.jpg" class="d-block w-100" alt="..."/>
+              </div>
+              <div class="carousel-item">
+                <img className="img-responsive center-block"  height={350} src="https://1.bp.blogspot.com/-gs-sqTsn36U/X4h86Zdsy4I/AAAAAAAAoXs/Hl5UmF78A_U6DTjAxoDgbfx4NsvlpjsSACLcBGAsYHQ/s904/brands-slide.jpg" class="d-block w-100" alt="..."/>
+              </div>
+              <div class="carousel-item">
+                <img className="img-responsive center-block"  height={350} src="https://1.bp.blogspot.com/-rVQyY-GuFvM/X4h86DAb5wI/AAAAAAAAoXo/18ufavrn6JMcPwlW56aEQOqoucbUyGGDgCLcBGAsYHQ/s904/at-yous-slide.jpg" class="d-block w-100" alt="..."/>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
             </div>
         </main>
     );

@@ -5,16 +5,29 @@ import nodemailer from 'nodemailer';
 const Contact = () => {
     return (
         <main className='row d-flex justify-content-between contact-container'>
-            <div className="col-md-4">
-                <h2>
-                Let us handle your project, professionally.
-                </h2>
-                <span>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</span>
+            <div className="col-md-6" id="about">
+                <h3>
+                About us
+                </h3>
+                <span>Premier Associates Ltd is on of the largest industrial machinary supplier of sewing, finishing, cutting, printing, embroidery, furniture, steel building construction, electric substation, generator, boiler, packaging & accessories machinery in Bangladesh. Order online for Yamato, Brother, Bullmer, Maica, Ve.Bi.Mac, Supreme and many other brands. Our brands and accessories : sewing spare parts, sewing machine service, plotters, CAD software, fusing machine, cutting machines, single needle, lockstitch, industrial washing machine, embroidery software, garment printing, automatic cutting, button stitch, button hole, jeans manufacturing, knitt stitching, sublimation, screen printing, garment finishing, needle detector, folders, wilcom, industrial spare parts, cutting machine parts, embroidery parts, hooks, bobbins, trimmers.</span>
             </div>
-            <div className="col-md-6">
-            <form>
+            <div className="col-md-6" id="contact">
+                <h3>Get in touch with-</h3>
+            
+                <address>
+                <strong>Premier Associates Ltd</strong><br/>
+                 House # 54, Road # 1, Sector # 9,<br/> 
+                 Uttara Model Town, Dhaka -1230, Bangladesh
+                {/* <abbr title="Phone">P:</abbr> (123) 456-7890 */}
+                </address>
+
+                <address>
+                <strong>Email</strong><br/>
+                <a href="mailto:info@premierktbd.com">info@premierktbd.com</a>
+                </address>
+            {/* <form>
             <div>
-                <input type="text" class="form-control" placeholder="Your email address"/>
+            <input type="text" class="form-control" placeholder="Your email address"/>
             </div>
             <br/>
             <div>
@@ -26,7 +39,7 @@ const Contact = () => {
             <br/>
             <button className="btn btn-ca btn-md"><span style={{color:'white'}}>Send</span></button>
             </div>
-            </form>
+            </form> */}
             </div>
         </main>
     );
