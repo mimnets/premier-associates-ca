@@ -6,17 +6,17 @@ const serviceList = [
     {
         title: 'Industrial Sewing Machine',
         description: 'We can provide support all kinds of industrial sewing machine.',
-        img: "https://1.bp.blogspot.com/-m266oOBBGq8/X4dPqOtNhdI/AAAAAAAAoV0/9KK8iqSD2H896qNcV9Txi6J_0UH2WUkpgCLcBGAsYHQ/s0/service1.png"
+        img: "https://1.bp.blogspot.com/-GhcTm_P-IZk/X4rpGCq_XqI/AAAAAAAAoac/qCtj5dofCEMIN7ABa1TJvu5dWybrC39DACLcBGAsYHQ/s512/sewing-machine.png"
     },
     {
         title: 'Industrial Furniture',
         description: 'Our industrial world class furniture service is best fit for your industry.',
-        img: "https://1.bp.blogspot.com/-0jnFDfyjJSM/X4dPqOms6yI/AAAAAAAAoVs/_NegFoAHI7ohTKVFrHAP4-4Vl-umpNdMwCLcBGAsYHQ/s0/service2.png"
+        img: "https://1.bp.blogspot.com/-9UXkKMKT9fA/X4rqCS0SVhI/AAAAAAAAoak/pszti8XYgDMgFWQGAnf90EF7STchSduAACLcBGAsYHQ/s512/office-chair.png"
     },
     {
         title: 'Garment Machinery',
         description: 'We provide complete garment machinery solutions.',
-        img: "https://1.bp.blogspot.com/-ocmYM-I8OjA/X4dPqETy4pI/AAAAAAAAoVw/SLxq0JcwyfEFxQ9rTnGy09rb7yEsr6dgACLcBGAsYHQ/s0/service3.png"
+        img: "https://1.bp.blogspot.com/-UIgs1hZDTqQ/X4rqi5dK1GI/AAAAAAAAoas/KM1sBNT3NBYP85_06DPsYXuYL56AIW9WwCLcBGAsYHQ/s512/laundry.png"
     }
 ]
 
@@ -26,7 +26,7 @@ const OurService = () => {
         <section className="my-5 py-5">
         <div className="container service-container">
             <div className="mt-5">
-                <h1 style={{textAlign: 'center'}}>Provide awesome <span style={{ color:'green'}}>services</span></h1>
+                <h1 style={{textAlign: 'center'}}>Our <span style={{ color:'green'}}>services</span></h1>
             </div>
             <div className="row mt-5">
                 {
