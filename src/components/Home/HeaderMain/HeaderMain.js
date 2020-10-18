@@ -14,7 +14,7 @@ const HeaderMain = () => {
                 <br/> 
                 Next Level
                 </h2>
-                <span>Premier Associates is proud to be your business growth partner by providing you international sewing machine and industrial machineries.</span>
+                <span>Premier Associates is proud to be your business growth partner by providing you industrial aachinery and equipment.</span>
                 <br/>
                 <br/>
                 <button className="btn btn-headermain"><span style={{color:'white'}}><a href="#contact">Contact us</a></span></button>

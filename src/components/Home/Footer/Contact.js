@@ -7,12 +7,26 @@ const Contact = () => {
         <main className='row d-flex justify-content-between contact-container'>
             <div className="col-md-6" id="about">
                 <h3>
-                About us
+                Some of our Clients
                 </h3>
-                <span>Premier Associates Ltd is on of the largest industrial machinary supplier of sewing, finishing, cutting, printing, embroidery, furniture, steel building construction, electric substation, generator, boiler, packaging & accessories machinery in Bangladesh. Order online for Yamato, Brother, Bullmer, Maica, Ve.Bi.Mac, Supreme and many other brands. Our brands and accessories : sewing spare parts, sewing machine service, plotters, CAD software, fusing machine, cutting machines, single needle, lockstitch, industrial washing machine, embroidery software, garment printing, automatic cutting, button stitch, button hole, jeans manufacturing, knitt stitching, sublimation, screen printing, garment finishing, needle detector, folders, wilcom, industrial spare parts, cutting machine parts, embroidery parts, hooks, bobbins, trimmers.</span>
+                <ul>
+                    <li>Square Textiles Limited</li>
+                    <li>Viyellatex Group</li>
+                    <li>Snowtex Group</li>
+                    <li>GMS Composite Knitting Ind. Ltd</li>
+                    <li>Epyllion Group</li>
+                    <li>Team Group</li>
+                    <li>Thermax Group</li>
+                    <li>Zehan knit composite</li>
+                    <li>Chorka Fashions</li>
+                    <li>Base Fashions Limited</li>
+                    <li>IFS Textiles Limited</li>
+                    <li>Mohammadi Group</li>
+                    <li>Susuka Knit Limited</li>
+                </ul>
             </div>
             <div className="col-md-6" id="contact">
-                <h3>Get in touch with-</h3>
+                <h3>Our contact and mailing address</h3>
             
                 <address>
                 <strong>Premier Associates Ltd</strong><br/>
@@ -25,6 +39,10 @@ const Contact = () => {
                 <strong>Email</strong><br/>
                 <a href="mailto:info@premierktbd.com">info@premierktbd.com</a>
                 </address>
+                <div>
+                    <h3>After Sales and Service</h3>
+                    <span>With ever changing business nature we change with our talented, dedicated team to provide our clients with the best possible combination of our product, spares & after sales service. </span>
+                </div>
             {/* <form>
             <div>
             <input type="text" class="form-control" placeholder="Your email address"/>

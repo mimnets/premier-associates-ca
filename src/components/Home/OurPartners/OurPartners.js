@@ -8,12 +8,22 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-const Clients = ({clientFeed}) => {
+const OurPartners = ({clientFeed}) => {
     const classes = useStyles();
     return (
         
                 <div className="col-md-4 d-flex">
-                        <Card className={classes.root}>
+
+                    <div className="card" style={{width: '18rem;'}}>
+                        <img className="card-img-top" src={clientFeed.img} width="120px" height="120px" alt="Card image cap"/>
+                        <div className="card-body">
+                            <h5 className="card-title">{clientFeed.title}</h5>
+                            <p className="card-text">{clientFeed.description}</p>
+                            <a href="#" class="btn btn-primary">Learn more about <strong>{clientFeed.name}</strong></a>
+                        </div>
+                        </div>
+
+                        {/* <Card className={classes.root}>
                     <CardHeader
                         avatar={
                         <Avatar aria-label={clientFeed.img} className={classes.avatar}>
@@ -29,9 +39,9 @@ const Clients = ({clientFeed}) => {
                         {clientFeed.description}
                         </Typography>
                     </CardContent>
-                    </Card>
+                    </Card> */}
                 </div>
     );
 };
 
-export default Clients;
+export default OurPartners;

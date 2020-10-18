@@ -27,6 +27,31 @@ const brandInfo = [
     {
         img: "https://1.bp.blogspot.com/-BFnbmUa0gMI/X4rU9CpgxuI/AAAAAAAAoZg/A0fGr49o82UmxZJcGxL5W88rMR87qEvBQCLcBGAsYHQ/s240/mica-logo2.png",
         link: "https://www.maicaitalia.com/en/product/mcd/"
+    },
+    {
+        img:"https://1.bp.blogspot.com/-aV9JA_ULJ2E/X4wSkG1VVAI/AAAAAAAAoco/LkGnkqqwoI0lKNIsDom-qC7-DgBKx7p2QCLcBGAsYHQ/s473/ve.vi%2Bmac.jpg",
+        link:"https://www.vibemac.com/en"
+    }
+    ,
+    {
+        img:"https://1.bp.blogspot.com/-98xzM8KLOng/X4wSgyvNlnI/AAAAAAAAob8/k9afyMHpKToZpMNcgpfdbi9RwlvutKAiwCLcBGAsYHQ/s300/EAE.png",
+        link:"https://www.eae.com.tr/EN/busbar-general-information.html"
+    },
+    {
+        img:"https://1.bp.blogspot.com/-yQnuwUE2PI4/X4wSiE2eqwI/AAAAAAAAocE/Jt5JfNtHyLkPSkPIA7-RBiW4fmols_OZACLcBGAsYHQ/s325/Supreme.jpg",
+        link:"http://www.china-supreme.com/en/"
+    },
+    {
+        img:"https://1.bp.blogspot.com/-Ru_PaJjsC8E/X4wSkcEZT0I/AAAAAAAAocw/W65wsvHHrWIkUV72pQQ10a6_NAt0DmotQCLcBGAsYHQ/s465/winda.jpg",
+        link:"http://www.windacadcam.com/"
+    },
+    {
+        img:"https://1.bp.blogspot.com/-Jz0HXrpfcV8/X4wSjftdXDI/AAAAAAAAocc/uFYL1vUs4qEuG5FaUA_KInCg3leDQo-nwCLcBGAsYHQ/s266/perkins.png",
+        link:"https://www.perkins.com/"
+    },
+    {
+        img:"https://1.bp.blogspot.com/-csuqkB-D09g/X4woftQwXeI/AAAAAAAAod8/_N69soFXwyofBPtKh2Bum-JMurSiRHqJACLcBGAsYHQ/s0/logo-unitech-industries-newlogo-chiaro.png",
+        link:"https://www.unitech.it/"
     }
 ]
 
@@ -35,7 +60,7 @@ const PartnerInfo = () => {
         <section className="my-5 py-5">
             <div className="container">
             <div className="mt-5">
-            <h1 style={{textAlign: 'center'}}>Our <span style={{color: 'green'}}>Partners</span></h1>
+            <h1 style={{textAlign: 'center'}}>Our <span style={{color: 'green'}}>Brands</span></h1>
             </div>
             <div className="row mt-5">
                 {

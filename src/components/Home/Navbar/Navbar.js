@@ -18,10 +18,13 @@ const Navbar = () => {
                 <a class="nav-link mx-3" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link mx-3" href="#about">About</a>
+                <a class="nav-link mx-3" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link mx-3" href="#">Service</a>
+                <a class="nav-link mx-3" href="#partners">Our Pertners</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#service">Service</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link mx-3" href="#contact">Contact</a>
