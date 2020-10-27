@@ -6,7 +6,7 @@ import Contact from './Contact';
 
 const Footer = () => {
     return (
-        <section className="container" style={{backgroundColor:'#FBD062'}}>
+        <section className="container" style={{backgroundColor:'#C7EFCF'}}>
             <Contact></Contact>
             <FooterCredits></FooterCredits>
         </section>

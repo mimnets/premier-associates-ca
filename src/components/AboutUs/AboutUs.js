@@ -7,7 +7,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <Container style={{backgroundColor:'#FBD062'}} className="about-container">
+        <Container style={{backgroundColor:'#C7EFCF'}} className="about-container">
             <Navbar></Navbar>
             <div className="row my-5 ty-5">
                 <div className="col-md-6">
