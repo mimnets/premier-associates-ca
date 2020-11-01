@@ -1,5 +1,6 @@
 {
   "name": "creative-agency",
+  "homepage": "https://www.premiermktbd.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,13 +8,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.5.3",
     "firebase": "^7.24.0",
     "firebase-app": "^0.0.1",
     "nodemailer": "^6.4.14",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-bootstrap": "^1.3.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },

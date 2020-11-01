@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Navbar from '../Navbar/Navbar';
+import MiddleNav from '../MiddleNav/MiddleNav';
 import './Header.css';
 
 const Header = () => {
     return (
         
-            <Container style={{backgroundColor:'#EEF5DB'}} className="header-container">
-            <Navbar></Navbar>
+            <Container className="header-container">
+            <MiddleNav></MiddleNav>
             <HeaderMain></HeaderMain>
             </Container>
         

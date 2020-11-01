@@ -3,6 +3,7 @@
     position:relative;
     /* background-image: url('../../../images/chairBg.png'); */
     background-size: cover;
+    padding-top: 65px;
 }
 /* .header-container::after {
     height:600px;
