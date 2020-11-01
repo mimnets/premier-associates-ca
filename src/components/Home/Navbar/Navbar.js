@@ -3,9 +3,10 @@ import logo from '../../../images/logos/logo.png';
 import './Navbar.css'
 const Navbar = () => {
     return (
-        <section className="container">
-            <div>
-        <nav class="navbar navbar-expand-lg navbar-light justify-content-between bg-white fixed-top">
+        <div className="sticky-header-top" style={{borderBottom:"1px solid rgba(232,232,232)"}}>
+            <div className="wrapper">
+            <div className="container fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a class="navbar-brand" href="/"><img src={logo} alt="" style={{height:'50px'}}/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +34,8 @@ const Navbar = () => {
         </div>
         </nav>
         </div>
-        </section>
+            </div>
+        </div>
     );
 };
 

@@ -8,7 +8,7 @@ const Header = () => {
     return (
         
             <Container className="header-container">
-            <MiddleNav></MiddleNav>
+            {/* <MiddleNav></MiddleNav> */}
             <HeaderMain></HeaderMain>
             </Container>
         
